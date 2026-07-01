@@ -1,0 +1,39 @@
+LeetCode'daki "The Two Sneaky Numbers of Digitville" problemi şu şekildedir:
+
+Problem Açıklaması
+Digitville kasabasında 1'den n'ye kadar numaralandırılmış n tane sayı bulunmaktadır. Ancak bu sayılardan iki tanesi diğerlerinden iki kez görünmektedir, geri kalan tüm sayılar ise tam olarak bir kez görünmektedir.
+
+Size uzunluğu n + 2 olan bir liste (nums) veriliyor. Bu listede:
+
+1'den n'ye kadar olan tüm sayılar en az bir kez bulunur
+
+Tam olarak iki sayı ikişer kez bulunur
+
+Geri kalan tüm sayılar birer kez bulunur
+
+Göreviniz: Bu iki "sinsi" sayıyı (iki kez görünen sayıları) bulmak.
+
+Örnekler
+Örnek 1:
+
+text
+Input: nums = [1,2,3,2,3]
+Output: [2,3]
+Açıklama: n = 3, liste uzunluğu = 5 (3 + 2)
+- 1, 2, 3 sayıları var
+- 2 ve 3 ikişer kez görünüyor
+Örnek 2:
+
+text
+Input: nums = [5,4,3,4,3,2]
+Output: [3,4]
+Açıklama: n = 4, liste uzunluğu = 6 (4 + 2)
+- 2, 3, 4, 5 sayıları var
+- 3 ve 4 ikişer kez görünüyor
+
+Kısıtlamalar
+2 <= n <= 100
+
+nums.length == n + 2
+
+1 <= nums[i] <= n
