@@ -1,0 +1,6 @@
+@OABYS.API_HostAddress = http://localhost:5294
+
+GET {{OABYS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
